@@ -15,11 +15,6 @@ export const MESSAGES_CONFIG = new OpaqueToken('notification-bar.messages.config
 @Component({
     selector: 'notification-bar',
     styles: [`
-        :host {
-          position: relative;
-          display: block;
-        }
-        
         .notifications-container {
           position: fixed;
           top: 0px;
